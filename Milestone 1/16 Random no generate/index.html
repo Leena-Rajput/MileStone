@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Number Generator</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            margin-top: 50px;
+        }
+        
+        #random-number {
+            font-size: 24px;
+            margin-top: 20px;
+            color: rgb(3, 189, 3);
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Number Generator</h1>
+    <div id="random-number"> </div>
+
+    <script>
+        (function () {
+            const randomNumber = Math.floor(Math.random() * 100) + 1;
+            document.getElementById('random-number').textContent = randomNumber;
+        })();
+    </script>
+</body>
+</html>

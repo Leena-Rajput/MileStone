@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamically Adding List Items</title>
+  <!----CSS------------>
+  <style>
+    body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  background-color: darkblue;
+  font-weight: 700;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  background-color: white;
+  color:darkblue;
+  padding: 15px 20px ;
+  font-weight: bolder;
+  border: none;
+}
+
+#list {
+  margin-top: 20px;
+}
+
+  </style>
+</head>
+<body>
+  <h1>Course Curriculum</h1>
+  <ol id="list"></ol>
+  <button onclick="addItem()">Add Item</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(https://images.pexels.com/photos/8923955/pexels-photo-8923955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-size: larger;
+  }
+
+  body div{
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #todo-container {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: rgb(247, 147, 180);
+    border: 2px solid white;
+    color: rgb(85, 139, 4);
+    font-weight: 900;
+    font-size: larger;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  #todo-list{
+    color: rgb(196, 9, 9);
+    font-size: x-large;
+    list-style: circle;
+  }
+  

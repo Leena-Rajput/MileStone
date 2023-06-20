@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discount Percentage Calculator</title>
+  <style>
+    body{
+        background-image: url(https://images.pexels.com/photos/5872360/pexels-photo-5872360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        font-size: xx-large;
+    }
+    div input{
+        margin-bottom: 30px;
+    }
+
+    button{
+        padding: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        border-radius: 15px;
+        background-color: rgb(245, 51, 51);
+        border: 3px solid white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Discount Percentage Calculator</h1>
+  <div id="calculator">
+    <label for="original-price">Original Price:</label>
+    <input type="number" id="original-price" /><br>
+    <label for="discounted-price">Discounted Price:</label>
+    <input type="number" id="discounted-price" />
+    <button onclick="calculateDiscountPercentage()">Calculate</button>
+    <br />
+    <label for="discount-percentage">Discount Percentage:</label>
+    <input type="text" id="discount-percentage" readonly />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

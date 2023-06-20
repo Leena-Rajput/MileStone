@@ -1,0 +1,28 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 150px;
+  }
+  
+  input[type="password"] {
+    width: 200px;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+  }
+  

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter</title>
+
+  <style>
+    body{
+        background-color: rgb(114, 114, 187);
+    }
+    h1{
+        text-align: center;
+        color: white;
+    }
+     
+    #converter {
+        text-align: center;
+    }
+
+    button{
+        margin: 0px 0px 15px 15px;
+        border: none;
+        padding: 10px 10px;
+        background: rgb(36, 36, 66);
+        color: white;
+        border-radius: 2px;
+        box-shadow:10% ;
+    }
+    label{
+        font-weight: bold;
+        font-size: large;
+        color: white;
+    }
+  </style>
+  
+</head>
+<body>
+  <h1>Temperature Converter</h1>
+  <div id="converter">
+    <label for="celsius">Celsius:</label>
+    <input type="number" id="celsius" />
+    <button onclick="convertTemperature()">Convert</button>
+    <br />
+    <label for="fahrenheit">Fahrenheit:</label>
+    <input type="number" id="fahrenheit" readonly />
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

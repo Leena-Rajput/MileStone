@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Text on Button Click</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            margin-top: 50px;
+        }
+        
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">The most affordable learning platform</h1>
+    <button id="toggle-button">Toggle Text</button>
+
+    <script>
+        const heading = document.getElementById("heading");
+        const toggleButton = document.getElementById("toggle-button");
+        
+        toggleButton.addEventListener("click", function() {
+            if (heading.textContent === "The most affordable learning platform") {
+                heading.textContent = "PW Skills";
+            } else {
+                heading.textContent = "The most affordable learning platform";
+            }
+        });
+    </script>
+</body>
+</html>

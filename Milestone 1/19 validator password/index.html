@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email validator</title>
+    <!---------css------------->
+    <style>
+        body{
+            text-align: center;
+            font-size: x-large;
+            font-weight: 900;
+            background-image: linear-gradient( skyblue,rgb(19, 19, 70));
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+       h1{
+        margin-bottom: 30px;
+       }
+        form input{
+            margin-bottom: 20px;
+        }
+        #submit{
+            padding: 15px;
+            border-radius: 12px;
+            border: white;
+            
+        }
+    </style>
+</head>
+<body>
+
+<h1>! Login !</h1>
+<form id="login-form">
+    <label>Email:</label>
+    <input type="text" id="email-input" required>
+    <br>
+    <label>Password:</label>
+    <input type="password" id="password-input" required>
+    <br>
+    <input type="submit" value="Submit" id="submit">
+  </form>
+  <p id="error-message"></p>
+
+  <!----------JavaScript----->
+  <script src="./script.js"></script>
+</body>
+  
